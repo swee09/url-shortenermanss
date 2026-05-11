@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            Manswee's Url shorterner
           </Title>
 
           <Text
