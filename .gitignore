@@ -66,8 +66,13 @@ web_modules/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
-.env.*
+<<<<<<< HEAD
+/backend/.env
+=======
+
+/backend/.env
+
+>>>>>>> upstream/main
 !.env.example
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -81,7 +86,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+<<<<<<< HEAD
 .output
+=======
+>>>>>>> upstream/main
 
 # Gatsby files
 .cache/
@@ -92,8 +100,14 @@ dist
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
 # vuepress v2.x temp directory
 .temp
+=======
+# vuepress v2.x temp and cache directory
+.temp
+.cache
+>>>>>>> upstream/main
 
 # Sveltekit cache directory
 .svelte-kit/
@@ -125,9 +139,12 @@ dist
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
 
+<<<<<<< HEAD
 # pnpm
 .pnpm-store
 
+=======
+>>>>>>> upstream/main
 # yarn v3
 .pnp.*
 .yarn/*
@@ -137,7 +154,13 @@ dist
 !.yarn/sdks
 !.yarn/versions
 
+<<<<<<< HEAD
 # Vite files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+=======
+# Vite logs files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+>>>>>>> upstream/main
